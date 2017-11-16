@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 3em;
+  font-family: sans-serif;
+  background-color:black;
+}
+
+p {
+  color:white;
+  font-size:1em;
+}
+
+h1, h3 {
+  color: #00D474;
+}
+
+.main-menu {
+  list-style-type: none;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+
+}
+
+.nav a {
+  margin:2em;
+}
+
+
+
+.poster {
+  max-width: 100%;
+  height: auto;
+  color:white;
+}
+
+.tmdb-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.SearchForm {
+  margin:0 auto;
+  padding: 2em;
+}
+
+.footer {
+  background-color:black;
+  width:100%;
+  padding:0;
+}
